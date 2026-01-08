@@ -6,7 +6,7 @@
   "module": "lib-esm/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rmdir /s /q dist",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "tslint --project tsconfig.json",
@@ -48,7 +48,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alex3165/react-mapbox-gl.git"
+    "url": "git+https://github.com/marcelwokkemarin/react-mapbox-gl.git"
   },
   "keywords": [
     "mapbox",
@@ -58,12 +58,12 @@
     "mapbox-gl",
     "react-component"
   ],
-  "author": "Alexandre Rieux",
+  "author": "marcelwokkemarin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alex3165/react-mapbox-gl/issues"
+    "url": "https://github.com/marcelwokkemarin/react-mapbox-gl.git/issues"
   },
-  "homepage": "https://github.com/alex3165/react-mapbox-gl#readme",
+  "homepage": "https://github.com/marcelwokkemarin/react-mapbox-gl#readme",
   "dependencies": {
     "@turf/bbox": "4.7.3",
     "@turf/helpers": "4.7.3",
